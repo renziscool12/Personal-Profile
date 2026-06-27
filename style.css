@@ -1,0 +1,83 @@
+h1 {
+    color: grey;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#profile img {
+    border: 6px solid grey;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:
+        0 0 10px cyan,
+        0 0 20px cyan,
+        0 0 40px cyan,
+        0 0 80px cyan;
+}
+
+#music_album img {
+    border: 6px solid grey;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#profile {
+    text-align: center;
+}
+
+
+body {
+    user-select: none;
+    /* makes the insertion point blinking disappear*/
+    background-color: burlywood;
+}
+
+.card {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+#hobbies {
+    text-align: left;
+}
+
+
+p {
+    font-family: cursive;
+    font-size: 19px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+strong {
+    font-family: cursive;
+}
+
+h3 {
+    font-family: cursive;
+}
